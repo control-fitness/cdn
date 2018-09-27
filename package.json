@@ -6,13 +6,19 @@
   "repository": "https://github.com/control-fitness/cdn.git",
   "author": "Paulo McNally <paulomcnally@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "fonts": "./node_modules/icon-font-generator/bin/icon-font-generator public/fonts/icons/*.svg -o public/fonts -n ControlFitness -p cf-icon"
+  },
   "dependencies": {
     "express": "^4.16.3",
     "helmet": "^3.12.1"
   },
   "engines": {
-    "node": "10.2.1",
-    "npm": "6.1.0",
-    "yarn": "1.7.0"
+    "node": "10.10.0",
+    "npm": "6.4.1",
+    "yarn": "1.9.4"
+  },
+  "devDependencies": {
+    "icon-font-generator": "^2.1.8"
   }
 }

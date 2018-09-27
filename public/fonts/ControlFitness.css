@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "ControlFitness";
+    src: url("./ControlFitness.eot?48cae1c4fa7b335355994358e1e1606f?#iefix") format("embedded-opentype"),
+url("./ControlFitness.woff2?48cae1c4fa7b335355994358e1e1606f") format("woff2"),
+url("./ControlFitness.woff?48cae1c4fa7b335355994358e1e1606f") format("woff"),
+url("./ControlFitness.ttf?48cae1c4fa7b335355994358e1e1606f") format("truetype"),
+url("./ControlFitness.svg?48cae1c4fa7b335355994358e1e1606f#ControlFitness") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="cf-icon-"]:before, i[class*=" cf-icon-"]:before {
+    font-family: ControlFitness !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cf-icon-main-nav-account:before {
+    content: "\f101";
+}
+.cf-icon-main-nav-classes:before {
+    content: "\f102";
+}
+.cf-icon-main-nav-company:before {
+    content: "\f103";
+}
+.cf-icon-main-nav-crm:before {
+    content: "\f104";
+}
+.cf-icon-main-nav-financial:before {
+    content: "\f105";
+}
+.cf-icon-main-nav-home:before {
+    content: "\f106";
+}
+.cf-icon-main-nav-reports:before {
+    content: "\f107";
+}
+.cf-icon-main-nav-settings:before {
+    content: "\f108";
+}
