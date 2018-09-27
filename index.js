@@ -20,19 +20,9 @@ app.use(helmet());
  * https://www.npmjs.com/package/cors
  * @type {[type]}
  */
-const whitelist = [
-  'http://*.control.fitness',
-  'https://*.control.fitness',
-  'http://localhost:8080',
-];
 const corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
-  }
+  origin: '*',
+  methods: 'GET',
 };
 app.use(cors(corsOptions));
 
