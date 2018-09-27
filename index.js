@@ -10,7 +10,14 @@ const port = process.env.PORT || 3000;
  * https://expressjs.com/en/advanced/best-practice-security.html
  * @type {[type]}
  */
-app.use(helmet())
+app.use(helmet.cors({
+  allowFrom: [
+    'http://*.control.fitness',
+    'http://localhost:8080'
+  ],
+  credentials: 'basic',
+  maxAge: 86400000,
+}));
 
 /**
  * To serve static files such as images, CSS files, and JavaScript files,
