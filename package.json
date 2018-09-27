@@ -10,6 +10,7 @@
     "fonts": "./node_modules/icon-font-generator/bin/icon-font-generator public/fonts/icons/*.svg -o public/fonts -n ControlFitness -p cf-icon"
   },
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "helmet": "^3.12.1"
   },
