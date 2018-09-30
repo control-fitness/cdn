@@ -1,5 +1,9 @@
 {
- "name": "App",
+ "short_name": "Control Fitness",
+ "name": "Control Fitness",
+ "display": "standalone",
+ "theme_color": "#0080b7",
+ "background_color": "#0080b7",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
